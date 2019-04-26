@@ -31,7 +31,7 @@ end
 
 
 def find_a(array)
-  array.find_start_with()
+  array.find_start_with(word: 'a')
 end
 def sum_array(array)
   array.inject{|memo, num| memo += num; memo}
