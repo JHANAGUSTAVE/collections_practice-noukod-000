@@ -28,3 +28,7 @@ end
 
 def kesha_maker(array)
 end
+
+def sum_array(array)
+  array.inject{|memo, num| memo += num; memo}
+end
