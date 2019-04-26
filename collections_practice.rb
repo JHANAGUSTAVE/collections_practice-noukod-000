@@ -31,8 +31,8 @@ end
 
 
 def find_a(array)
-  cats_and_dogs.delete_if do |pet|
-  pet == "dog
+  cats_and_dogs.delete_if do |word|
+  word == "dog
 end
 def sum_array(array)
   array.inject{|memo, num| memo += num; memo}
