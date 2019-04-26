@@ -31,7 +31,7 @@ end
 
 
 def find_a(array)
-  array.delete_if do |word|
+  array.select  do |word|
   word == "orange", "pear"
 end
 def sum_array(array)
