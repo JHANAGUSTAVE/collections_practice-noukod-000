@@ -18,8 +18,7 @@ def swap_elements(array)
   array[1] 
 end
 def swap_elements_from_to(array, index, destination_index)
-  array.sort!
-  array.to_s
+ 
 end
 
 def reverse_array(array)
@@ -31,7 +30,7 @@ end
 
 
 def find_a(array)
- array.detect {|el| el.start_with?("a") }
+ array.select { |el| el.start_with?("a") }
 end
 def sum_array(array)
   array.inject{|memo, num| memo += num; memo}
