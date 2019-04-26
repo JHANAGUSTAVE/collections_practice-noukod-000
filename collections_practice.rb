@@ -29,6 +29,10 @@ end
 def kesha_maker(array)
 end
 
+
+def find_a(array)
+  array.start_with
+end
 def sum_array(array)
   array.inject{|memo, num| memo += num; memo}
 end
