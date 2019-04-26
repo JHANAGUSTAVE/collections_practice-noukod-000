@@ -15,7 +15,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  swap_elements_from_to()
+  array[1] 
 end
 def swap_elements_from_to(array, index, destination_index)
   array.sort!
@@ -38,6 +38,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|element, index| array << "s"}
+  array.each_with_index.collect{|element, index| }
+  if array == 1
+    false
+    
   
 end
