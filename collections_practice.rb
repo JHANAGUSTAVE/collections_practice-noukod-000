@@ -31,8 +31,7 @@ end
 
 
 def find_a(array)
-  array.select  do |word|
-  word == "orange", "pear"
+ array.detect
 end
 def sum_array(array)
   array.inject{|memo, num| memo += num; memo}
